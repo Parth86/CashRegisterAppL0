@@ -15,9 +15,11 @@ function calc(diff) {
 
 
 btn.addEventListener('click', () => {
-    if(bill.value > 0){
-        if(cash.value > 0 && cash.value >= bill.value){
-            var diff = cash.value - bill.value
+    var b = Number(bill.value)
+    var c = Number(cash.value)
+    if(b > 0){
+        if(c >= b){
+            var diff = c - b
             var notes = calc(diff)
             for(var i=0; i<notes.length;i++){
                 noOfNotes[i].innerText = notes[i]
