@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+button {
+    background: #7c3aed;
+    border: none;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+input {
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #7c3aed;
+}
+table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+}
+caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+}
+td,th {
+    border: 2px solid #7c3aed;
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+  }
